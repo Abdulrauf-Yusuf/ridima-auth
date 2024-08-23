@@ -1,0 +1,60 @@
+.transaction-table {
+  width: 100%;
+  border: 1px solid #e5e5e5;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.transaction-tabs {
+  display: flex;
+  justify-content: flex-end;
+  background: #fff;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.tab {
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.tab.active {
+  color: #7165e3;
+  border-bottom: 2px solid #7165e3;
+}
+
+.transaction-header {
+  padding: 10px;
+  font-weight: bold;
+}
+
+.transaction-rows {
+  padding: 10px;
+}
+
+.transaction-row {
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.transaction-row:last-child {
+  border-bottom: none;
+}
+
+.transaction-icon img {
+  width: 40px;
+  height: 40px;
+}
+
+.transaction-vendor,
+.transaction-date,
+.transaction-time,
+.transaction-amount,
+.transaction-status {
+  margin: 0 20px;
+}
+
+.transaction-status.rejected {
+  color: red;
+}

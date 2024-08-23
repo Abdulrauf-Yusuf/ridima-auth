@@ -1,0 +1,29 @@
+.transactions {
+    padding: 20px;
+  }
+  .transactions h2 {
+    margin-bottom: 20px;
+  }
+  .transactions ul {
+    list-style: none;
+    padding: 0;
+  }
+  .transactions li {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  .transactions .transaction span {
+    flex: 1;
+  }
+  .transactions .transaction .status {
+    text-align: right;
+  }
+  .transactions .transaction .status.rejected {
+    color: red;
+  }
+  

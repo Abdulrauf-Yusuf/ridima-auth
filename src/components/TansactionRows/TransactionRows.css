@@ -1,0 +1,30 @@
+.transaction-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 5px; /* Adjust padding as needed */
+    border-bottom: 1px solid #e5e5e5;
+  }
+  
+  .transaction-row:last-child {
+    border-bottom: none;
+  }
+  
+  .transaction-icon img {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .transaction-vendor,
+  .transaction-date,
+  .transaction-time,
+  .transaction-amount,
+  .transaction-status {
+    flex: 1;
+    text-align: center; /* Center-align text for uniformity */
+  }
+  
+  .transaction-status.rejected {
+    color: red;
+  }
+  

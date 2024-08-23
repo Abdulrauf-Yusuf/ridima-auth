@@ -1,0 +1,21 @@
+.trade-cards{
+    width: 200px;
+    display: flex;
+    align-items: center;
+    position:relative; 
+    height: 90px;
+    /* background: linear-gradient(90deg, #279E76 100%,#0C533BD6 84% ); */
+    box-shadow: 0px 4px 10px #3E49540A;
+    border-radius: 10px;
+}
+.trade-cards h3{
+    font-size: 12px;
+    font-weight: 700;
+    color: #fff;
+    padding-left: 20px;
+}
+.trade-cards img{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}

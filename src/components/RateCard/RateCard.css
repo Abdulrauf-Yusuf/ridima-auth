@@ -1,0 +1,20 @@
+
+.rate-container {
+    width: 20%;
+    border-radius: 8px;
+}
+.rate-img img {
+    width: 100%;
+    border-radius: 10px;
+    height: auto;
+}
+
+.rate-content {
+    padding: 16px;
+    text-align: center;
+}
+
+.rate-content span{
+    font-size: 12px;
+    color: #12101a;
+}
