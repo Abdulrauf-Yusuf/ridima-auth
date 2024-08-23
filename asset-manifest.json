@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/ridima-auth/static/css/main.fa8ea166.css",
+    "main.js": "/ridima-auth/static/js/main.d4029f83.js",
+    "static/js/453.cda6ef62.chunk.js": "/ridima-auth/static/js/453.cda6ef62.chunk.js",
+    "static/media/visa.png": "/ridima-auth/static/media/visa.3b1c05fdd89793901938.png",
+    "static/media/apple.png": "/ridima-auth/static/media/apple.bdfffaac7fe3dece799d.png",
+    "static/media/bitcoin.png": "/ridima-auth/static/media/bitcoin.fac9b31e58ba32251afd.png",
+    "index.html": "/ridima-auth/index.html",
+    "main.fa8ea166.css.map": "/ridima-auth/static/css/main.fa8ea166.css.map",
+    "main.d4029f83.js.map": "/ridima-auth/static/js/main.d4029f83.js.map",
+    "453.cda6ef62.chunk.js.map": "/ridima-auth/static/js/453.cda6ef62.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fa8ea166.css",
+    "static/js/main.d4029f83.js"
+  ]
+}
